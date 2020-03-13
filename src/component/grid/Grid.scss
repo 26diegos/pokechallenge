@@ -1,0 +1,19 @@
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 20vw);
+}
+
+.pokemon-element {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px white solid;
+  justify-content: center;
+  align-items: center;
+  height: 20vw;
+
+  .name {
+    font-weight: bold;
+  }
+}
